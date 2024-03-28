@@ -34,7 +34,7 @@ export default function ImageUpload() {
     }
   return (
    <>
-   <div className="">
+   <div className=" text-green-500 text-3xl">
     <p>upload multiple photos</p>
     <div className="">
        {imagesUrl.map((img,index)=>(

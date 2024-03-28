@@ -1,6 +1,7 @@
 import { useState } from "react"
 import Button from "./Button"
 import ImageUpload from "./firebase/ImageUpload"
+import StarRating from "./StarRating"
 
 function App() {
   const [show,setShow]=useState(false)
@@ -18,6 +19,9 @@ function App() {
         </div> 
         <div className=" mt-52">
           <ImageUpload/>
+        </div>
+        <div className="">
+          <StarRating/>
         </div>
      </div>
     </>
